@@ -93,7 +93,7 @@ const ReferralModal = ({ isOpen, onClose }: ReferralModalProps) => {
               type="text"
               value={formData.referrerName}
               onChange={(e) => setFormData({...formData, referrerName: e.target.value})}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+              className=" p-2 mt-1 block w-full rounded-md border-gray-300 border-2 shadow-sm focus:border-purple-500 focus:ring-purple-500"
             />
             {errors.referrerName && <p className="text-red-500 text-sm mt-1">{errors.referrerName}</p>}
           </div>
@@ -104,7 +104,7 @@ const ReferralModal = ({ isOpen, onClose }: ReferralModalProps) => {
               type="email"
               value={formData.referrerEmail}
               onChange={(e) => setFormData({...formData, referrerEmail: e.target.value})}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+              className="p-2 mt-1 block w-full rounded-md border-gray-300 border-2 shadow-sm focus:border-purple-500 focus:ring-purple-500"
             />
             {errors.referrerEmail && <p className="text-red-500 text-sm mt-1">{errors.referrerEmail}</p>}
           </div>
@@ -115,7 +115,7 @@ const ReferralModal = ({ isOpen, onClose }: ReferralModalProps) => {
               type="text"
               value={formData.refereeName}
               onChange={(e) => setFormData({...formData, refereeName: e.target.value})}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+              className="p-2 mt-1 block w-full rounded-md border-gray-300 border-2 shadow-sm focus:border-purple-500 focus:ring-purple-500"
             />
             {errors.refereeName && <p className="text-red-500 text-sm mt-1">{errors.refereeName}</p>}
           </div>
@@ -126,7 +126,7 @@ const ReferralModal = ({ isOpen, onClose }: ReferralModalProps) => {
               type="email"
               value={formData.refereeEmail}
               onChange={(e) => setFormData({...formData, refereeEmail: e.target.value})}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+              className="p-2 mt-1 block w-full rounded-md border-gray-300 border-2 shadow-sm focus:border-purple-500 focus:ring-purple-500"
             />
             {errors.refereeEmail && <p className="text-red-500 text-sm mt-1">{errors.refereeEmail}</p>}
           </div>
@@ -136,7 +136,7 @@ const ReferralModal = ({ isOpen, onClose }: ReferralModalProps) => {
             <select
               value={formData.course}
               onChange={(e) => setFormData({...formData, course: e.target.value})}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+              className="p-2 mt-1 block w-full rounded-md border-gray-300 border-2 shadow-sm focus:border-purple-500 focus:ring-purple-500"
             >
               <option value="">Select a course</option>
               <option value="web-development">Web Development</option>
