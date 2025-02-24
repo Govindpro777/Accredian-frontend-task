@@ -54,7 +54,7 @@ const ReferralModal = ({ isOpen, onClose }: ReferralModalProps) => {
     if (!validateForm()) return;
 
     try {
-      const response = await fetch('http://localhost:4000/api/referrals', {
+      const response = await fetch('https://accredian-backend-gxgw.onrender.com/api/referrals', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
